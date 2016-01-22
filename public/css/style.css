@@ -10,10 +10,10 @@ body{
   background-color: white;
 }
 
-.jumbotron {
-  background-image: url("life.jpg");
-  /*text-align: center; */
-}
+/*jumbotron {
+  background-image: url("css/life.jpg");
+  text-align: center;
+}*/
 
 body {
   margin-left: 10px;
@@ -32,6 +32,11 @@ h1 {
   margin-bottom: 40px;
   font-family: 'Playfair Display SC', serif;
   font-weight: bold;
+}
+
+.things {
+  color: #00c3ff;
+  text-decoration:line-through;
 }
 
 #topButtons {
@@ -93,6 +98,6 @@ label{
   margin-bottom: 20px;
 }
 
-#heart {
+/*#heart {
   color: #00c3ff;
-}
+}*/
