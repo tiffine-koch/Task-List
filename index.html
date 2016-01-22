@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact List</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="public/style.css">
+</head>
+<body>
+    <!-- <div class="page-header">
+      <h1>Just Did It! <small></small></h1>
+    </div>
+    <div class="col-sm-offset-2 col-xs-12 col-sm-5">
+      <div id="bill"><img src="life.jpg" alt=""></div>
+    </div>  -->
+  <div class="jumbotron">
+    <div class="container">
+    <h1>Just Did It!</h1>
+    </div>
+  </div>
+
+  <div id="container">
+    <div id="formEntry" class="row">
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="inputTask">New Task</label>
+          <input type="name" class="form-control" id="taskEntry" placeholder="Enter Task" value="" required>
+        </div>
+        <div class="form-group">
+          <label for="inputDate">Description</label>
+          <input type="email" class="form-control" id="desEntry" placeholder="Enter Description" value="" required="">
+        </div>
+        <div class="form-group">
+          <label for="inputDate">Date</label>
+          <input type="date" class="form-control" id="dateEntry" placeholder="Enter Date" value="">
+        </div>
+        <div class="btn-group">
+          <button id="catEntry" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add Category<span class="caret"></span></button>
+            <ul id="catDropDown" class="dropdown-menu">
+              <li class="dropList" selected="selected" value="work"><a href="#">Work</a></li>
+              <li class="dropList" selected="selected" value="home"><a href="#">Home</a></li>
+              <li class="dropList" selected="selected" value"school"><a href="#">School</a></li>
+            </ul>
+        </div>
+      </div>
+      <button id="newEntry" class="btn btn-info">Add New Task</button>
+     </form>
+   </div>
+    <!-- <div><img src="tasks/wish.jpg" alt=""></div> -->
+  <div class="table">
+    <table class="table">
+    <thead class="tHeader">
+      <tr>
+        <th>Completed</th>
+        <th id="sortName" class="name">Task</th>
+        <th id="sortDesc" class="desc">Description</th>
+        <th id="sortDate" class="date">Date</th>
+        <th>High Priority</th>
+        <th>Remove</th>
+      </tr>
+    </thead>
+
+    <tbody id="taskList">
+
+
+      <tr id="template">
+        <td>
+          <div class="checkbox checkbox-primary">
+              <input id="checkbox" type="checkbox" checked>
+          </div>
+        </td>
+        <td class="name"></td>
+        <td class="desc"></td>
+        <td class="date"></td>
+
+        <td>
+          <button type="button" class="btn btn-info" id="fav">
+            <span class="glyphicon glyphicon-pushpin"></span>
+          </button>
+        </td>
+        <td>
+          <button type="button" class="btn btn-default" id="trash">
+            <span class="glyphicon glyphicon-trash"></span>
+          </button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="checkbox checkbox-primary">
+              <input id="checkbox" type="checkbox" checked>
+          </div>
+        </td>
+        <td class="name">Studying</td>
+        <td class="desc">Create Budget App</td>
+        <td class="date">01/30/2016</td>
+        <td>
+          <button type="button" class="btn btn-info" id="heart">
+            <span class="glyphicon glyphicon-pushpin"></span>
+          </button>
+        </td>
+        <td>
+          <button type="button" class="btn btn-default" id="trash">
+            <span class="glyphicon glyphicon-trash"></span>
+          </button>
+        </td>
+      </tr>
+    </table>
+  </tbody>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="public/main.js"></script>
+</body>
+</html>
