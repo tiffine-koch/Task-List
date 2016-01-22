@@ -5,7 +5,7 @@
   <title>Contact List</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="public/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- <div class="page-header">
@@ -13,7 +13,7 @@
     </div>
     <div class="col-sm-offset-2 col-xs-12 col-sm-5">
       <div id="bill"><img src="life.jpg" alt=""></div>
-    </div>  -->
+    </div> -->
   <div class="jumbotron">
     <div class="container">
     <h1>Just Did It!</h1>
@@ -56,7 +56,6 @@
         <th id="sortName" class="name">Task</th>
         <th id="sortDesc" class="desc">Description</th>
         <th id="sortDate" class="date">Date</th>
-        <th>High Priority</th>
         <th>Remove</th>
       </tr>
     </thead>
@@ -65,20 +64,19 @@
 
 
       <tr id="template">
-        <td>
+        <!-- <td>
           <div class="checkbox checkbox-primary">
               <input id="checkbox" type="checkbox" checked>
           </div>
-        </td>
-        <td class="name"></td>
-        <td class="desc"></td>
-        <td class="date"></td>
-
+        </td> -->
         <td>
           <button type="button" class="btn btn-info" id="fav">
             <span class="glyphicon glyphicon-pushpin"></span>
           </button>
         </td>
+        <td class="name"></td>
+        <td class="desc"></td>
+        <td class="date"></td>
         <td>
           <button type="button" class="btn btn-default" id="trash">
             <span class="glyphicon glyphicon-trash"></span>
@@ -88,18 +86,13 @@
 
       <tr>
         <td>
-          <div class="checkbox checkbox-primary">
-              <input id="checkbox" type="checkbox" checked>
-          </div>
+          <button type="button" class="btn btn-info" id="fav">
+            <span class="glyphicon glyphicon-pushpin"></span>
+          </button>
         </td>
         <td class="name">Studying</td>
         <td class="desc">Create Budget App</td>
         <td class="date">01/30/2016</td>
-        <td>
-          <button type="button" class="btn btn-info" id="heart">
-            <span class="glyphicon glyphicon-pushpin"></span>
-          </button>
-        </td>
         <td>
           <button type="button" class="btn btn-default" id="trash">
             <span class="glyphicon glyphicon-trash"></span>
@@ -114,6 +107,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="public/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

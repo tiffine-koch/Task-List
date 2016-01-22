@@ -1,0 +1,103 @@
+/*.checkbox {
+  color: red;
+}
+
+img {
+  border: 12px solid #4253C2;
+}*/
+
+body{
+  background-color: white;
+}
+
+.jumbotron {
+  background-image: url("css/life.jpg");
+  /*text-align: center; */
+}
+
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.table {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+h1 {
+  color: #4253C2;
+  font-size: 42px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+}
+
+.things {
+  color: #00c3ff;
+  text-decoration:line-through;
+}
+
+#topButtons {
+  margin-bottom: 40px;
+}
+th {
+  color: #000;
+  font-style: italic;
+  font-size: 16px;
+}
+
+th:hover {
+  color: #00c3ff;
+}
+
+#formEntry {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  font-size: 16px;
+}
+
+label{
+  font-size: 16px;
+  color: #00c3ff;
+}
+
+#newEntry {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  color: #000;
+  font-size: 16px;
+}
+
+.favWith {
+  color: #00c3ff;
+  font-weight: bold;
+}
+#trash {
+  margin-left: 20px;
+}
+#template {
+     display:none;
+}
+
+#buttonFilter {
+  margin-left: 700px;
+  margin-bottom: 20px;
+}
+
+#buttonSort {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/*#heart {
+  color: #00c3ff;
+}*/
